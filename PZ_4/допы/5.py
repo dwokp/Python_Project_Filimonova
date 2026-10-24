@@ -1,10 +1,12 @@
 # ввести N чисел. найти и вывести их среднее арифметическое
-n = int(input("Введите количество чисел: "))
-i = 0
+
+n = int(input("Введите число:"))
+k = 0
+arithmetic_num = 0
 sum = 0
-while i < n:
-    a = int(input("Введите число: "))
-    sum = sum + a
-    i = i + 1
-sr = sum / n
-print("Среднее арифметическое: ", sr)
+while k < n:
+    a = int(input(f"Введите число {k+1}: "))
+    sum += a
+    k += 1
+arithmetic_num = sum / 2
+print(arithmetic_num)

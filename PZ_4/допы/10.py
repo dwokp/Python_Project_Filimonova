@@ -1,23 +1,15 @@
 # вывести первые N (N>3) чисел Фибоначчи и посчитать количество четных чисел
-n = input("Введите N ( N>=3): ")
-while type(n) != int:
-    try:
-        n = int(n)
-    except ValueError:
-        print("Неправильно ввели!")
-        n = input("Введите N ( N>=3): ")
 
-a = 0
-b = 1
-i = 0
-k = 0
-while i < n:
-    print(a)
-
-    if a % 2 == 0:
-        k += 1
-    c = a + b
-    a = b
-    b = c
-    i += 1
-print("Количество четных чисел:", k)
+a = int(input("Введите количество чисел Фибоначчи большее или равное 3: "))
+num_p = 0
+n = 0
+k = 1
+s = 0
+while s < a:
+    s = n + k
+    if s % 2 == 0:
+        num_p += 1
+    n = k
+    k = s
+    print("Числа фибоначчи: ", s)
+print(num_p)

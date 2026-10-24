@@ -4,16 +4,20 @@ b = int(input("Введите второе число: "))
 c = int(input("Введите третье число: "))
 d = int(input("Введите четвертое число: "))
 
-sum = a + b + c + d
+sum = 0
 k = 0
 if a < 0:
-    k = k + 1
+    sum += a
+    k +=1
 if b < 0:
-    k = k + 1
+    sum += b
+    k += 1
 if c < 0:
-    k = k + 1
+    sum += c
+    k += 1
 if d < 0:
-    k = k + 1
+    sum += d
+    k += 1
 
 print("Сумма: ", sum)
 print("Количество отрицательных чисел: ", k)

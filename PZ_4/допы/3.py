@@ -1,7 +1,9 @@
 # найти и вывести на экран квадраты и кубы чисел от 2 до 5
-i = 2
-while i <= 5:
-    print("Число:", i)
-    print("Квадрат:", i ** 2)
-    print("Куб:", i ** 3)
-    i = i + 1
+n = 2
+square = 0
+cube = 0
+while n <= 5:
+    square = n ** 2
+    cube = n ** 3
+    print("Квадрат:", square, "Куб:", cube)
+    n += 1
