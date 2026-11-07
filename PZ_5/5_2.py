@@ -20,12 +20,12 @@ while i < 5:
             K = input("Введите целое положительное: ")
     if K <= 0:
         print("Число должно быть положительным")
-    else:
-        C = 0
-        S = 0
+        continue
+    C = 0
+    S = 0
 
-        C, S = DigitCountSum(K, C, S)
+    C, S = DigitCountSum(K, C, S)
 
-        print("Количество цифр: ", C)
-        print("Сумма цифр: ", S)
-        i += 1
+    print("Количество цифр: ", C)
+    print("Сумма цифр: ", S)
+    i += 1
