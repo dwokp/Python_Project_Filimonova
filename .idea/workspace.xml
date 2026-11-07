@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7c944d4-5c9b-466e-8a13-3018129ba849" name="Changes" comment="практ 5 + допы">
+    <list default="true" id="c7c944d4-5c9b-466e-8a13-3018129ba849" name="Changes" comment="комментарии">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_5/5_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_5/5_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_6/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_6/1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,12 +117,30 @@
       <option name="project" value="LOCAL" />
       <updated>1794036863116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="условия 6">
+      <option name="closed" value="true" />
+      <created>1794038296146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1794038296146</updated>
+    </task>
+    <task id="LOCAL-00006" summary="комментарии">
+      <option name="closed" value="true" />
+      <created>1794039033182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1794039033182</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="допы" />
     <MESSAGE value="практ 5 + допы" />
-    <option name="LAST_COMMIT_MESSAGE" value="практ 5 + допы" />
+    <MESSAGE value="условия 6" />
+    <MESSAGE value="комментарии" />
+    <option name="LAST_COMMIT_MESSAGE" value="комментарии" />
   </component>
 </project>
